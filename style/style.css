@@ -1,0 +1,48 @@
+    #main {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 14px;
+
+    }
+
+    .page {
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .tabel input {
+        width: 70px;
+    }
+
+    table {
+        text-align: right;
+        border-collapse: collapse;
+        width: 50%;
+    }
+
+    .tengah {
+        text-align: center;
+    }
+
+    th {
+        background-color: #b5c6e2;
+    }
+
+    @media (max-width: 992px) {
+        .hilang {
+            display: none;
+        }
+
+        div.col-sm {
+            padding-top: 5%;
+        }
+
+        .nav-item {
+            text-align: center;
+        }
+    }
+
+    @media (min-width: 1200px) {
+        .hilang2 {
+            display: none;
+        }
+    }

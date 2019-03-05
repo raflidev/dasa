@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+            crossorigin="anonymous">
+        <meta name="viewport" content="width=device-width, user-scalable=no" />
+        <link rel="stylesheet" href="style/style.css">
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+            <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+        <title>Dasa</title>
+    </head>
+    <style type="text/css">
+    .navbar {
+    position: relative;
+    z-index: 1;
+}
+.tombol {
+    text-transform: uppercase;
+    border-radius: 40px;
+}
+/* Jumbotron */
+.jumbotron {
+    background-image: url(hands.jpg);
+    text-align: center;
+    background-size: cover;
+    position: relative;
+    margin-top: -75px;
+    height: 500px;
+    margin-bottom: 0px;
+}
+
+.jumbotron .container {
+    z-index: 1;
+    position: relative;
+}
+
+.jumbotron::after {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0;
+}
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 150px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0, 0.7);
+    font-size: 50px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+.kronologi{
+    font-weight: 300;
+    font-size: 40px;
+}
+.menu{
+    margin-bottom: 40px;
+}
+
+    </style>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light">
+        <div class="container">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav navbar-nav ml-auto">
+                    <a href="" class="tombol btn btn-primary">Login</a>
+                </div>
+            </div>
+        </div>
+      </nav>
+
+
+        <!-- Jumbrotron -->
+    <div class="jumbotron jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4"><span>DASA</span><br>Dana Sosial dan Abadi</h1>
+          <a href="#about" class="btn btn-primary tombol">About</a>
+        </div>
+    </div>
+      <!-- Akhir Jumbotron -->
+
+    <!--About-->
+    <!--Container-->
+    <div class="parallax">
+    <div class="container" style="" id="about">
+        <div class="row">
+            <div class="col-lg-8 mt-4">
+            <span class="kronologi">About</span>
+            <p>ini adalah kegiatan warga Puri Cendana Blok C RT06/008, Tambun Selatan 
+                untuk menggalang dana untuk warga komplek yang terkena musibah 
+                dari Warga untuk Warga</p>
+            </div>
+        </div>
+
+        <div class="row">
+                <div class="col-lg-4"></div>
+                <div class="col-lg-8 text-right" data-aos="fade-left">
+                <span class="kronologi">Visi</span>
+                <p class="text-right">ini adalah kegiatan warga Puri Cendana Blok C RT06/008, Tambun Selatan 
+                    untuk menggalang dana untuk warga komplek yang terkena musibah 
+                    dari Warga untuk Warga</p>
+                </div>
+            </div>
+
+        <div class="row">
+                <div class="col-lg-8" data-aos="fade-right">
+                <span class="kronologi">Misi</span>
+                <p>ini adalah kegiatan warga Puri Cendana Blok C RT06/008, Tambun Selatan 
+                    untuk menggalang dana untuk warga komplek yang terkena musibah 
+                    dari Warga untuk Warga</p>
+                </div>
+            </div>
+            </div>
+                             <!--Akhir Container-->
+    </div>
+
+        <div>
+            <h1 class="text-center mt-4">MENU</h1>
+             <!--DESKTOP MENU-->
+    <div class="container">
+            
+            <div>
+                <div class='row'>
+                    <div class='col-sm'>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Input Data</h5>
+                                <p class="card-text">Mulai input data untuk menambah list Hasil Data Dana Sosial (DASA)</p>
+                                <a href="input.php" class="btn btn-primary">Input!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-sm'>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Hasil Data</h5>
+                                <p class="card-text">Melihat Hasil Data dari Input Data Dana Sosial (DASA) sebelumnya</p>
+                                <a href="jadi.php" class="btn btn-primary">Lihat Data!</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class='col-sm'>
+                        <div class="card" style="width: 18rem;">
+                            <div class="card-body">
+                                <h5 class="card-title">Kotak Saran</h5>
+                                <p class="card-text">Sebagai pengembang Website, kami sangat membutuhkan saran</p>
+                                <a href="/dasa/saran/index.php" class=" btn btn-primary">Beri Saran!</a>
+                            </div>
+                        </div>
+                        <br>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+        <!--END DESKTOP MENU-->
+        
+        </div>
+        <footer class="bg-dark text-white footer container">
+            <p>&copy;2018 Rafli Ramadhan, Kab.Bekasi</p>
+        </footer>
+     
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script>
+            AOS.init();
+    </script>
+    <script>
+    $(document).ready(function(){
+      // Add smooth scrolling to all links
+      $("a").on('click', function(event) {
+    
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+          // Prevent default anchor click behavior
+          event.preventDefault();
+    
+          // Store hash
+          var hash = this.hash;
+    
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 800, function(){
+       
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
+      });
+    });
+    </script>
+    
+</body>
+</html>
