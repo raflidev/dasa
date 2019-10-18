@@ -4,6 +4,7 @@ Ini project pertama saya
 
 ## Pendahuluan
 Dasa adalah sumbangan warga komplek untuk kepentingan bersama jika ada warga yang sakit atau meninggal
+oleh warga dari warga untuk warga!
 
 ## Fungsi
 - Menghitung uang sumbangan secara otomatis
