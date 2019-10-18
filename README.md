@@ -12,4 +12,4 @@ Dasa adalah sumbangan warga komplek untuk kepentingan bersama jika ada warga yan
 
 ## Penutup
 Semoga project selanjutnya akan lebih bisa membantu & mempermudah pekerjaan orang lain
-dan memperbaiki skill yang saya miliki
+dan menambah skill yang saya miliki
