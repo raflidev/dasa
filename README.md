@@ -1,6 +1,6 @@
 # Dasa
 Dana Sosial dan abadi
-Ini Project pertama saya
+Ini project pertama saya
 
 ## Pendahuluan
 Dasa adalah sumbangan warga komplek untuk kepentingan bersama jika ada warga yang sakit atau meninggal
